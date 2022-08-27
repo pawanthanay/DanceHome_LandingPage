@@ -1,0 +1,687 @@
+body{
+
+    margin: 0px;
+    font-family:'Open sans' ,sans-serif;
+    background-color: #f5f2f0;
+    color: #000;
+    padding: 0px;
+}
+
+
+.main{
+    display: flex;
+    position: relative;
+    margin:0;
+}
+
+.cp-nav-logo{
+    display: none;
+}
+.logo{
+    
+    margin-top: 45px;
+    margin-left: 30px;
+    width: ;
+}
+
+.left{
+    width: 55%;
+
+}
+.left-img{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    left: 0;
+    height:100vh;
+    z-index: -1;
+}
+
+.right-cont{
+    width: 100%;
+    position: relative;
+    height:100vh;
+}
+
+.cp-img{
+    display: none;
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content:space-evenly ;
+
+   
+    margin-top: 0px;
+    padding-top: 5px;
+    
+    
+}
+
+.nav-list{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 60px;
+
+        
+    }
+
+.nav-line{
+
+    position: relative;
+    width: 320px;
+    height: 0px;
+    left: 0px;
+    display: inline;
+    font-weight: 900;
+    border: none;
+    border-top: 2px solid #000;
+    color: #000;
+    
+   
+}
+
+
+
+.nav-item{
+   
+    list-style: none;
+    opacity: .5;
+}
+
+.nav-active{
+    opacity: 1;
+}
+
+
+
+/* MID SECTION CSS */
+
+
+
+
+.mid-section{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.contact-icons-cont{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left:0px;
+    margin-right: 10px;
+}
+.contact-icons{
+    margin-top:30px ;
+    width: 70%;
+}
+
+
+
+
+.creativity{
+
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+    
+}
+
+
+.mid-hd{
+
+    font-size: 6.5rem;
+    margin: 0;
+    
+}
+
+.mid-hd-lt{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+
+.mid-hd-dk{
+    margin-left: 120px;
+    display: inline-block;
+}
+
+
+
+.mid-ct{
+    display: inline-block;
+    font-size: 1.8rem;
+    width: 15%;
+    margin-left: 50px;
+    opacity: .5;
+
+
+}
+
+
+.btn{
+
+    all: unset;
+    display: block;
+    
+    margin-left: 650px;
+    background-color: #323332;
+    padding: 20px 45px;
+    color: #fff;
+    font-size: 1rem;
+    font-family:'Open sans' ,sans-serif;
+
+}
+
+
+
+.btm{
+
+    display:flex;
+    justify-content: space-around;
+    position:absolute;
+    bottom: 0px;
+    margin-top: 0px;
+}
+
+.btm-right{
+    position: relative;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+
+justify-content: space-evenly;}
+
+
+
+
+.skill-and-line{
+
+    position: relative;
+    right: 0px;
+    left: 150px;
+    top: 0px;
+}
+.skills{
+    position:relative;
+    margin-top: 0px;
+    display: inline-block;
+    
+   
+}
+.skill{
+    width:150px;
+    margin-bottom: 30px;
+}
+
+.line{
+    position: absolute;
+    display: inline-block;
+    z-index: -2;
+    width: 2px;
+    height: 250px;
+    background-color: gray;
+    border: none;
+    left: 5px;
+    margin-top: 15px;
+    
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color:gray;
+    display: inline-block;
+    padding:  1px;
+    border-radius: 100px;
+    margin: 0;
+    
+
+}
+
+.skill p {
+
+    display:inline-block;
+    color: gray;
+    margin: 0;
+
+}
+
+#active-skill{
+    color: #000;
+    
+}
+
+.big-dot{
+    background-color: #000;
+    padding: 2.5px;
+    margin-right:0px;
+}
+
+.active-skill{
+    margin-right:200px;
+}
+
+
+
+.right-btm-img{
+    width:250px;
+    position: relative;
+    bottom:0px;
+    
+}
+
+.arrow{
+    position: relative;
+    right: auto;
+    width:10%;
+    margin-top: 0px;
+    bottom: 0px;
+   
+}
+
+
+.btm-right p{
+   
+    width:70%;
+    margin-bottom: 0px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+   
+}
+
+
+.btm-img-cont{
+    position: relative;
+    margin-top: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+
+
+
+.comma{
+    margin-bottom: 0;
+   
+    display: block;
+    
+    width: 15%;
+}
+
+
+
+@media screen and (max-width:1300px) {
+
+    .btn-div{
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .nav-list{
+
+        gap: 40px;
+    }
+
+    .nav-line{
+        width: 280px;
+    }
+
+    .creativity{
+        margin-left: 50px;
+    }
+
+
+    .btn{
+
+        margin-left: 0px;
+        margin-right: 10px;
+        padding: 20px;
+      
+    }
+
+    .contact-icons{
+        margin-bottom: px;
+    }
+    
+}
+
+
+@media screen and (max-width:1150px){
+    .nav-list{
+        gap: 15px;
+    }
+    .nav-line{
+
+        width: 200px;
+    }
+
+
+    .creativity{
+        margin-left: 0px;
+        
+    }
+
+    .mid-ct{
+
+        margin-left:5px;
+        font-size: 1.5rem;
+    }
+
+    .mid-hd{
+        font-size: 5rem;
+    }
+
+    .contact-icons{
+        margin-top:20px ;
+        width: 70%;
+    }
+
+    .btn{
+        padding: 15px;
+        font-size: .8rem;
+    }
+
+
+}
+
+@media screen and (max-width:985px){
+
+   .right-btm-img{
+    width: 200px;
+   }
+
+}
+
+
+@media screen and (max-width:900px){
+
+    .left-img{
+
+        display: none;
+
+
+    }
+
+    .cp-nav-logo{
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
+    .nav-list{
+        display: none;
+    }
+
+
+
+
+    .left{
+        position: relative;
+        z-index: -1;
+        width: 0%;
+    }
+
+    .cp-img{
+        position:fixed;
+        display: block;
+        z-index: -1;
+        height: 600px;
+        left: 0px;
+        opacity: .5;
+   
+    }
+
+
+
+    .mid-hd{
+        font-size: 5.5rem;
+    }
+
+    .mid-section{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    
+.mid-hd-lt{
+    -webkit-text-fill-color: gray;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+
+.btn{
+    margin: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+    
+
+/* btmright */
+.btm-right{
+
+    text-align: center;
+    align-items: center;
+}
+
+.btm-img-cont{
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.contact-icons-cont{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:0px;
+    margin-right: 10px;
+    flex-direction: row;
+    gap: 30px;
+}
+.contact-icons{
+    margin-top:30px ;
+    width: 80%;
+
+}
+
+
+
+.line{
+    position: absolute;
+    display: inline-block;
+    z-index: -2;
+    width: 2px;
+    height: 250px;
+    background-color: gray;
+    border: none;
+    left: 5px;
+    margin-top: 15px;
+    
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color:black;
+    display: inline-block;
+    padding:  1px;
+    border-radius: 100px;
+    margin: 0;
+    
+
+}
+
+.skill p {
+
+    display:inline-block;
+    color: black;
+    margin: 0;
+
+}
+
+
+}
+
+
+@media screen and (max-width:830px){
+
+ 
+.left-img{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    left: 0;
+   
+    z-index: -1;
+    
+}
+
+.right-cont{
+    width: 100%;
+    position: relative;
+    height:100vh;
+    z-index: 1;
+}
+
+    
+}
+
+
+@media screen and (max-width:600px){
+    .cp-nav-logo{
+        width: 150px;
+    }
+    .cp-img{
+        opacity: .3;
+    }
+    .skill-and-line{
+        left: 20px;
+
+        width: 30%;
+
+    }
+
+    .mid-section{
+        width: 100%;
+    }
+
+    .mid-hd{
+        font-size: 4.5rem;
+    }
+
+    .mid-ct{
+        font-weight: 600;
+        opacity: .8;
+    }
+
+    .btn{
+        margin-top: 15px;
+        padding: 15px;
+    }
+    
+    .contact-icons{
+        margin-top: 10px;
+        width: 60%;
+    }
+    .contact-icons-cont{
+        margin-top: 5px;
+    }
+    .btm{
+        width: 100%;
+        font-weight: 400;
+    }
+    .btm-right{
+        justify-content: center;
+        
+        
+    }
+    p{
+        font-weight: 600;
+    }
+
+    .skills{
+        width: 30%;
+
+    }
+
+
+
+   
+}
+
+@media screen and (max-width:470px){
+
+    .cp-nav-logo{
+        width: 120px;
+    }
+
+    .mid-hd{
+
+        font-size: 3.2rem;
+    }
+
+    .mid-hd-dk{
+        margin-left: 80px;
+    }
+    .mid-ct{
+        font-size: .9rem;
+    }
+
+
+    .btm{
+        position: static;
+        margin-top: 200px;
+    }
+.skill-and-line{
+    position: absolute;
+    width: 30%;
+   margin-top: 300px;
+    
+}
+.cp-img{
+    height: 100vh;
+}
+
+.skills{
+font-size: .9rem;
+
+}
+
+.btm-right p{
+font-size: .9rem;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width:380px){
+
+    .mid-hd{
+        font-size: 2.5rem;
+    }
+}
+
